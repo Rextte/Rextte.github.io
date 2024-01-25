@@ -8,6 +8,5 @@ function changeBackgroundColor() {
 
 // Toggle menu function
 function toggleMenu() {
-    // Add your menu toggle logic here
-    console.log("Menu clicked!"); // Example: Log a message to the console
+    console.log("Menu clicked!"); 
 }
