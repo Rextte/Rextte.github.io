@@ -5,3 +5,9 @@ function changeBackgroundColor() {
     // Set the background color of the body
     document.body.style.backgroundColor = randomColor;
 }
+
+// Toggle menu function
+function toggleMenu() {
+    // Add your menu toggle logic here
+    console.log("Menu clicked!"); // Example: Log a message to the console
+}
