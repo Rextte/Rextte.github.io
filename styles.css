@@ -24,6 +24,20 @@ body {
     margin: 6px 0;
 }
 
+.menu-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu-box.active {
+    display: block;
+}
 
 .content-container {
     text-align: center;
