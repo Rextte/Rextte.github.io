@@ -6,7 +6,10 @@ function changeBackgroundColor() {
     document.body.style.backgroundColor = randomColor;
 }
 
-// Toggle menu function
 function toggleMenu() {
-    console.log("Menu clicked!"); 
+    var menuBox = document.querySelector('.menu-box');
+    menuBox.classList.toggle('active');
+
+    var menuBar = document.querySelector('.menu-bar');
+    menuBar.classList.toggle('active');
 }
