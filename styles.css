@@ -35,7 +35,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.menu-box.active {
+.menu-bar:hover + .menu-box {
     display: block;
 }
 
