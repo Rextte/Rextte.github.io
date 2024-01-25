@@ -15,6 +15,7 @@ body {
     cursor: pointer;
     z-index: 1000; /* Ensure it appears above other elements */
     padding: 10px; /* Increase clickable area by adding padding */
+    transition: transform 0.5s ease-in-out; /* Add a transition effect for the transform property */
 }
 
 .line {
@@ -22,6 +23,15 @@ body {
     height: 3px;
     background-color: #333; /* Color of the lines */
     margin: 6px 0;
+}
+
+/* Apply rotation for the "X" shape */
+.menu-bar.active .line:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.menu-bar.active .line:nth-child(2) {
+    transform: rotate(45deg) translate(-5px, -6px);
 }
 
 /* Box styles */
