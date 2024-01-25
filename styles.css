@@ -24,12 +24,12 @@ body {
     margin: 6px 0;
 }
 
+/* Box styles */
 .menu-box {
     display: none;
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 10px; /* Adjust the top position to align with the menu bar */
+    left: 60px; /* Adjust the left position to place it beside the menu bar */
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
