@@ -27,6 +27,7 @@ button:hover {
     background-color: #0056b3;
 }
 
+/* Position icons in the bottom right corner */
 .bottom-right-icons {
     position: fixed;
     bottom: 10px;
@@ -36,8 +37,18 @@ button:hover {
     align-items: flex-end;
 }
 
-.bottom-right-icons img {
-    width: 40px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+/* Style for each icon */
+.bottom-right-icons a {
     margin-bottom: 10px; /* Adjust spacing between icons */
+}
+
+.bottom-right-icons img {
+    width: 40px; /* Initial width */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease-in-out; /* Add smooth transition */
+}
+
+/* Expand on hover */
+.bottom-right-icons img.expand-on-hover:hover {
+    transform: scale(2); /* Expand to twice the size on hover */
 }
